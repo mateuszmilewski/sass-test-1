@@ -1,0 +1,16 @@
+#horzNav a {
+    color: cyan;
+}
+
+#horNav a:hover {
+    color: white;
+}
+
+#horNav-dwa {
+    a {
+        color: pink;
+        &:hover {
+            color: palevioletred;
+        }
+    }
+}
